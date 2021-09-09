@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lead UI Kit</title>
+    <!-- partial:partials/_head.html -->
+    <link rel="stylesheet" href="css/lead-ui-kit.css">
+    <link rel="stylesheet" href="assets/css/lead-ui-kit-demo.css">
+    <!-- partial -->
+</head>
+
+<body>
+    <!-- partial:partials/_header.html -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="lead-ui-kit logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#leadUIMainNav"
+                    aria-controls="leadUIMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i data-feather="menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="leadUIMainNav">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Overview</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="badges.html" class="nav-link">Badges</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="field-elements.html" class="nav-link">Field Elements</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="avatars.html" class="nav-link">Avatars</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="tabs.html" class="nav-link">Tabs</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="landing-sass.html" class="nav-link" target="_blank">Sass Landing Page</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="landing-business.html" class="nav-link" target="_blank">Business Landing Page</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="landing-app.html" class="nav-link" target="_blank">App Landing Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="header.html" class="nav-link">header</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="footer.html" class="nav-link">Footer</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="content-sections.html" class="nav-link">Content Sections</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="blog-sections.html" class="nav-link">Blog Sections</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="faq.html" class="nav-link">FAQ</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="clients.html" class="nav-link">Clients</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="features.html" class="nav-link">Features</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="pricing-plans.html" class="nav-link">Pricing Plans</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="team.html" class="nav-link">Team</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="gallery.html" class="nav-link">Gallery</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../documentation/documentation.html" target="_blank">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#!" class="btn btn-rounded btn-danger">Buy Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- partial -->
+
+    <main class="demo-main">
+        <div class="container">
+            <section class="demo-section">
+                <h3 class="demo-section-title mb-3">Field Elements</h3>
+                <p class="text-gray mb-5">Documentation and examples for typography, including global settings, headings, body text, lists, and more.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="lead-demo">
+                            <div class="form-group">
+                                <div class="form-group">
+                                  <label for="standardInput" class="sr-only">Standard Input Fields</label>
+                                  <input type="text" class="form-control" name="standardInput" id="standardInput" placeholder="Standard Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="successInput" class="sr-only">Success Input Fields</label>
+                                    <input type="text" class="form-control is-valid" name="successInput" id="successInput"
+                                        placeholder="Success Input Fields" Value="Success Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="dangerInput" class="sr-only">Danger Input Fields</label>
+                                    <input type="text" class="form-control is-invalid" name="dangerInput" id="dangerInput"
+                                        placeholder="Danger Input Fields" value="Danger Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="warningInput" class="sr-only">Warning Input Fields</label>
+                                    <input type="text" class="form-control is-warning" name="warningInput" id="warningInput"
+                                        placeholder="Warning Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="disabledInput" class="sr-only">Disabled Input Fields</label>
+                                    <input type="text" class="form-control" name="disabledInput" id="disabledInput" disabled
+                                        placeholder="Disabled Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="inputIconLeft" class="sr-only">Standard Input Fields</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i data-feather="user" width="12px" stroke-width="3"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" name="inputIconLeft" id="inputIconLeft" placeholder="Standard Input Fields">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group mb-5">
+                                <div class="form-group">
+                                    <label for="inputIconRight" class="sr-only">Standard Input Fields</label>
+                                    <div class="input-group">
+                                            <input type="text" class="form-control" name="inputIconRight" id="inputIconRight" placeholder="Standard Input Fields">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">
+                                                    <i data-feather="user" width="12px" stroke-width="3"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="longInputRounded" class="sr-only">Long Input Fields</label>
+                              <textarea class="form-control form-control-rounded" name="longInput" id="longInput" rows="6" placeholder="Long Input Fields"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="longInputDisabledRounded" class="sr-only">Disabled textarea</label>
+                                <textarea class="form-control form-control-rounded" name="longInputDisabled" id="longInputDisabled" rows="6" placeholder="Disabled textarea" disabled></textarea>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="lead-demo">
+                            <div class="form-group">
+                                <div class="form-group">
+                                  <label for="standardInputRounded" class="sr-only">Standard Input Fields</label>
+                                  <input type="text" class="form-control form-control-rounded" name="standardInputRounded" id="standardInputRounded" placeholder="Standard Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="successInputRounded" class="sr-only">Success Input Fields</label>
+                                    <input type="text" class="form-control form-control-rounded is-valid" name="successInputRounded" id="successInputRounded"
+                                        placeholder="Success Input Fields" Value="Success Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="dangerInputRounded" class="sr-only">Danger Input Fields</label>
+                                    <input type="text" class="form-control form-control-rounded is-invalid" name="dangerInputRounded" id="dangerInputRounded"
+                                        placeholder="Danger Input Fields" value="Danger Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="warningInputRounded" class="sr-only">Warning Input Fields</label>
+                                    <input type="text" class="form-control form-control-rounded is-warning" name="warningInputRounded" id="warningInputRounded"
+                                        placeholder="Warning Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="disabledInputRounded" class="sr-only">Disabled Input Fields</label>
+                                    <input type="text" class="form-control" name="disabledInputRounded" id="disabledInputRounded" disabled
+                                        placeholder="Disabled Input Fields">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="inputIconLeftRounded" class="sr-only">Standard Input Fields</label>
+                                    <div class="input-group input-group-rounded">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i data-feather="user" width="12px" stroke-width="3"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" name="inputIconLeftRounded" id="inputIconLeftRounded" placeholder="Standard Input Fields">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group mb-5">
+                                <div class="form-group">
+                                    <label for="inputIconRightRounded" class="sr-only">Standard Input Fields</label>
+                                    <div class="input-group input-group-rounded">
+                                            <input type="text" class="form-control" name="inputIconRightRounded" id="inputIconRightRounded" placeholder="Standard Input Fields">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">
+                                                    <i data-feather="user" width="12px" stroke-width="3"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="longInput" class="sr-only">Long Input Fields</label>
+                              <textarea class="form-control" name="longInput" id="longInput" rows="6" placeholder="Long Input Fields"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="longInputDisabled" class="sr-only">Disabled textarea</label>
+                                <textarea class="form-control" name="longInputDisabled" id="longInputDisabled" rows="6" placeholder="Disabled textarea" disabled></textarea>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="demo-section">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-card mb-5">
+                            <div class="text-center mb-3">
+                                <img src="assets/images/logo.svg" alt="logo" class="img-fluid">
+                            </div>
+                            <p class="small text-gray text-center mb-40px">We're available 8:00 AM – 5:00 PM AEST</p>
+                            <form action="#!">
+                                <div class="form-group">
+                                    <label for="nametForm-1" class="sr-only">Your Name</label>
+                                    <input type="text" name="nameForm-1" id="nameForm-1" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailForm-1" class="sr-only">Email</label>
+                                    <input type="email" name="emailForm-1" id="emailForm-1" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subjectForm-1" class="sr-only">Subject</label>
+                                    <input type="text" name="subjectForm-1" id="subjectForm-1" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="messageForm-1" class="sr-only">Tell us a few words…</label>
+                                    <textarea name="messageForm-1" id="messageForm-1" class="form-control" rows="6" placeholder="Tell us a few words…"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary">Send your message</button>
+                            </form>
+                        </div>
+                        <div class="form-card mb-5">
+                            <h3 class="text-center mb-1">Get started for free</h3>
+                            <p class="text-center mb-20px">no credit card required</p>
+                            <form action="#!">
+                                <div class="form-group">
+                                    <label for="nametForm-2" class="sr-only">Full Name</label>
+                                    <input type="text" name="nameForm-2" id="nameForm-2" class="form-control" placeholder="Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailForm-2" class="sr-only">Email</label>
+                                    <input type="email" name="emailForm-2" id="emailForm-2" class="form-control" placeholder="Email">
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary mb-3">Create your accout</button>
+                                <p class="mb-0 py-1 text-center text-gray small"><a href="#!" class="text-reset">Already have an account?</a></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-card mb-5">
+                            <h3 class="text-center mb-2">Discuss</h3>
+                            <p class="mb-4 text-center text-gray small">contact us and get feedback instantly</p>
+                            <form action="#!">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="nameForm-3" class="sr-only">Name</label>
+                                        <input type="text" class="form-control" id="nameForm-3" name="nameForm-3" placeholder="Name">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label for="emailForm-3" class="sr-only">Email</label>
+                                        <input type="email" class="form-control" id="emailForm-3" name="emailForm-3" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-12">
+                                        <label for="messageForm-3" class="sr-only">Message</label>
+                                        <textarea class="form-control" name="messageForm-3" id="messageForm-3" rows="6" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                            </form>
+                        </div>
+                        <div class="form-card mb-5">
+                            <h3 class="text-center mb-1">Sign in</h3>
+                            <p class="text-center mb-20px">Welcome back</p>
+                            <form action="#!">
+                                <div class="form-group">
+                                    <label for="emailForm-4" class="sr-only">Email</label>
+                                    <input type="email" name="emailForm-4" id="emailForm-4" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordtForm-4" class="sr-only">Password</label>
+                                    <input type="password" name="passwordForm-4" id="passwordForm-4" class="form-control" placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary mb-20px">Sign in</button>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#!" class="text-reset font-weight-bold">Sign up</a>
+                                    <a href="#!" class="text-danger small font-weight-bold">Forgot password?</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-card mb-5">
+                            <h3 class="text-center mb-2">Reset password</h3>
+                            <p class="mb-4 text-center text-gray small">Enter your email to reset your password.</p>
+                            <form action="#!">
+                                <div class="form-group">
+                                    <label for="emailForm-5" class="sr-only">Email Address</label>
+                                    <input type="email" name="emailForm-5" id="emailForm-5" class="form-control" placeholder="Email Address">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block mb-3">Reset password</button>
+                                <p class="text-center text-gray small font-weight-bold">Not registered? <a href="#!" class="text-reset">Create account</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- partial:partials/_footer.html -->
+    <footer class="lead-footer lead-main-footer lead-footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="footer-brand-wrapper"><img src="assets/images/logo-white.svg" alt="logo white"></div>
+                    <p class="pb-2 mb-4">Premium Support. Join over 40,000 satisfied customers who use Medium Rare
+                        templates.</p>
+                    <nav class="lead-social-menu">
+                        <a href="#!"><i data-feather="twitter"></i></a>
+                        <a href="#!"><i data-feather="facebook"></i></a>
+                        <a href="#!"><i data-feather="linkedin"></i></a>
+                        <a href="#!"><i data-feather="instagram"></i></a>
+                    </nav>
+                </div>
+                <div class="col-lg-5 col-md-6 ml-md-auto">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="nav footer-nav nav-vertical my-4 my-md-0">
+                                <a href="#!" class="nav-link">Profile</a>
+                                <a href="#!" class="nav-link">Settings</a>
+                                <a href="#!" class="nav-link">Billing</a>
+                                <a href="#!" class="nav-link">Notifications</a>
+                            </nav>
+                        </div>
+                        <div class="col">
+                            <nav class="nav footer-nav nav-vertical my-4 my-md-0">
+                                <a href="#!" class="nav-link">Services</a>
+                                <a href="#!" class="nav-link">Pricing</a>
+                                <a href="#!" class="nav-link">Contact</a>
+                                <a href="#!" class="nav-link">Careers</a>
+                            </nav>
+                        </div>
+                        <div class="col">
+                            <nav class="nav footer-nav nav-vertical my-4 my-md-0">
+                                <a href="#!" class="nav-link">Community</a>
+                                <a href="#!" class="nav-link">Help center</a>
+                                <a href="#!" class="nav-link">Support</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-6 ml-auto">
+                    <p class="footer-text">©2020 Lead. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/vendors/feather-icons/feather.min.js"></script>
+    <script src="/vendors/jquery/jquery.min.js"></script>
+    <script src="/vendors/popper.js/popper.min.js"></script>
+    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/lead-ui-kit.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <!-- partial -->
+</body>
+
+</html>
